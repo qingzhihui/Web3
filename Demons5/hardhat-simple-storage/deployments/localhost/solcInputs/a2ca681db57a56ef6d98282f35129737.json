@@ -1,0 +1,35 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/SimpleStorage.sol": {
+      "content": "// I'm a comment!\r\n// SPDX-License-Identifier: MIT\r\n\r\npragma solidity 0.8.8;\r\n\r\n// pragma solidity ^0.8.0;\r\n// pragma solidity >=0.8.0 <0.9.0;\r\n\r\ncontract SimpleStorage {\r\n  uint256 favoriteNumber;\r\n\r\n  struct People {\r\n    uint256 favoriteNumber;\r\n    string name;\r\n  }\r\n\r\n  // uint256[] public anArray;\r\n  People[] public people;\r\n\r\n  mapping(string => uint256) public nameToFavoriteNumber;\r\n\r\n  function store(uint256 _favoriteNumber) public {\r\n    favoriteNumber = _favoriteNumber;\r\n  }\r\n\r\n  function retrieve() public view returns (uint256) {\r\n    return favoriteNumber;\r\n  }\r\n\r\n  function addPerson(string memory _name, uint256 _favoriteNumber) public {\r\n    people.push(People(_favoriteNumber, _name));\r\n    nameToFavoriteNumber[_name] = _favoriteNumber;\r\n  }\r\n}\r\n"
+    }
+  },
+  "settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata",
+          "devdoc",
+          "userdoc",
+          "storageLayout",
+          "evm.gasEstimates"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}
