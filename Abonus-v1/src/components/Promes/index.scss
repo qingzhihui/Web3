@@ -1,0 +1,92 @@
+
+.pserExbuse {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 999999999999;
+  }
+  .pserzhes {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  @keyframes fadenum {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .ant-btn-two-chinese-chars > *:not(.anticon) {
+    letter-spacing: 0px !important;
+  }
+  .pserTise {
+    width: 300px;
+    height: 200px;
+    // background: url("./assets/image/modalBg.png");
+    border: 2px solid rgb(75, 154, 214);
+    background: #fff;
+    position: absolute;
+    background-size: 100% 100%;
+    animation: fadenum 0.8s 1;
+    z-index: 9999;
+    top: 40%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  .pserTise2{
+    width: 480px;
+    height: 240px;
+    // background: url("./assets/image/modalBg.png");
+    border: 2px solid rgb(75, 154, 214);
+    background: #fff;
+    position: absolute;
+    background-size: 100% 100%;
+    animation: fadenum 0.8s 1;
+    z-index: 9999;
+    top: 40%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  .nriopsr {
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .Luiisnr {
+    font-size: 53px;
+    font-weight: 600;
+    color: rgb(75, 154, 214);
+  }
+  .logding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Ptimeb {
+    margin-top: 10px;
+    font-size: 18px;  
+    text-align: center;
+    color: rgb(75, 154, 214);
+    white-space:normal;
+    width: 100%;
+  }
+  .pserExchange_nro {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

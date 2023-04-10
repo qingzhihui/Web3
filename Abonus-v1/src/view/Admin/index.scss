@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../../assets/bumg/ba57a61194ecf2fefbf44135bcbc193.png");
+    background-size: 100% 100%;
+    overflow: hidden;
+  }
+  
+  .main {
+    display: block;
+    flex: 1;
+    position: relative;
+    min-height: 1px;
+    overflow-x: auto;
+  }
+//   .nav-left {
+//     display: block;
+//     position: relative;
+//     min-height: 1px;
+//   }
+  
+  .content {
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 0;
+  }
+  

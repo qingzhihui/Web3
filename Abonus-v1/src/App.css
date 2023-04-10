@@ -1,0 +1,287 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.App {
+  height: 100%;
+  width: 100%;
+  font-family: Lamiar_Medium;
+}
+.hader_gojha .ant-btn {
+  padding: 0px 15px 0px 15px !important;
+  border: 2px solid #4b9ad6 !important;
+  box-shadow: none !important;
+  font-size: 15px;
+  height: 35px;
+  background: #fff;
+  color: #000 !important;
+  border-radius: 20px;
+}
+.Niome .ant-btn {
+  padding: 0px 15px 0px 15px !important;
+  border: 2px solid #4b9ad6 !important;
+  box-shadow: none !important;
+  font-size: 15px;
+  height: 35px;
+  /* font-weight: 600; */
+  background: #fff;
+  color: #000 !important;
+  border-radius: 20px;
+}
+.ant-btn,
+.ant-btn:active,
+.ant-btn:focus {
+  border: 2px solid #4b9ad6 !important;
+  color: #000 !important;
+}
+.slueipoi {
+  display: flex;
+  align-items: center;
+}
+.ant-spin-nested-loading > div > .ant-spin {
+  max-height: 100% !important;
+}
+.ant-dropdown-menu {
+  border-radius: 15px !important;
+  overflow: hidden;
+}
+button[ant-click-animating-without-extra-node]:after {
+  border: 0 none;
+  opacity: 0;
+  animation: none 0 ease 0 1 normal;
+}
+.ant-table-wrapper {
+  /* border: 2px solid #4b9ad6 !important; */
+  border-radius: 20px !important;
+  overflow: hidden;
+}
+.ant-table {
+  border-radius: 20px !important;
+  border: none !important;
+}
+.ant-table-tbody > tr > td {
+  border: none !important;
+  border-left: 1px solid #f0f0f0 !important;
+  border-top: 1px solid #f0f0f0 !important;
+}
+.ant-table-container {
+  border-radius: 20px !important;
+}
+.ant-table-content {
+  border-radius: 20px !important;
+}
+.ant-table-pagination.ant-pagination {
+  padding-right: 10px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 640px) {
+  .conteron .snueing {
+    width: 100% !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .conteron .snueing .buseit {
+    width: 100% !important;
+    flex-wrap: wrap !important;
+    padding: 6px !important;
+  }
+  .conteron .snueing .buseit .bulioet {
+    padding: 5px !important;
+    flex-wrap: wrap !important;
+  }
+  .conteron .snueing .buseit .bulioet .tnerl {
+    width: 100% !important;
+  }
+  .conteron .snueing .buseit .bulioet .tnerl {
+    font-size: 14px !important;
+  }
+  .hezhuiing {
+    width: 100%;
+  }
+  /* .nuisner{
+    display: none !important;
+  } */
+  .conteron .snueing .buseitile {
+    flex-wrap: wrap !important;
+  }
+  .bopsuner {
+    width: 100% !important;
+  }
+  .conteron .snueing .buseitile .sbuedri {
+    font-size: 12px !important;
+    /* flex-wrap: wrap; */
+    position: static !important;
+  }
+  .bopsuner .nuisner {
+    width: 100% !important;
+    margin-bottom: 0px !important;
+  }
+  .bopsuner .nuisner input {
+    width: 100% !important;
+  }
+  .bopsuner .nuisner button {
+    width: 50px;
+    font-size: 12px !important;
+  }
+  .sbuedri .nuisner input {
+    width: 100% !important;
+    font-size: 12px !important;
+  }
+  .sbuedri .nuisner button {
+    font-size: 12px !important;
+    width: 55px;
+  }
+  .sbuedri .nuisner {
+    margin-left: 0px;
+    flex-wrap: wrap;
+  }
+  .spuinsd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    width: 100%;
+  }
+  .lbuser {
+    width: 100%;
+    display: block !important;
+  }
+  .conteron .snueing .buseitile .sbuedri {
+    margin-top: 5px;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .sksiuer {
+    display: flex;
+    align-items: center;
+  }
+  .conteron .Realsibu .noelue {
+    font-size: 12px !important;
+  }
+  .conteron .Hder_reft button {
+    margin-right: 3px !important;
+    font-size: 13px !important;
+  }
+  .conteron .snueing .buseitile {
+    padding: 0px !important;
+    padding-top: 10px !important;
+  }
+  .bopsuner {
+    font-size: 17px !important;
+    justify-content: center !important;
+    width: 100% !important;
+  }
+  .tnerl {
+    word-wrap: break-word;
+    word-break: normal;
+  }
+  .conteron .Realsibu {
+    width: 140px !important;
+  }
+  .conteron .Realsibu {
+    font-size: 13px !important;
+  }
+  .conteron .Realsibu .bsuein {
+    line-height: 15px;
+    font-size: 12px !important;
+  }
+  .conteron .Hder_reft {
+    justify-content: space-around;
+  }
+  .conteron {
+    padding-top: 10px !important;
+  }
+  .conteron .snueing .buseit .bulioet {
+    width: 100%;
+  }
+  .pserTise {
+    width: 260px !important;
+    height: 180px !important;
+  }
+  .conteronDeom .snueing {
+    width: 100% !important;
+  }
+  .conteronDeom .psuoisng {
+    flex-wrap: wrap !important;
+  }
+  .conteronDeom .psuoisng .psuoisng_lengt {
+    width: 95% !important;
+    height: auto !important;
+    margin: 0 auto;
+  }
+  .conteronDeom .bopsuner2 .nuisner .pruinstinptu{
+    width: 100% !important;
+    flex-wrap: wrap !important;
+  }
+  .conteronDeom .bopsuner2 .nuisner .pruinstinptu .input1{
+    width: 100% !important;
+  }
+  .conteronDeom .bopsuner2 .nuisner .pruinstinptu .input2{
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+  }
+  .conteronDeom .psuoisng .psuoisng_regit{
+    width: 95% !important;
+    margin-left: 0px !important;
+    margin: 10px  auto !important;
+
+  }
+  .conteronDeom .snueing .buseitile .bopsuner{
+    flex-wrap: wrap !important;
+    width: 95% !important;
+    justify-content: left !important;
+    margin: 10px auto;
+  }
+  .conteronDeom .spusoere button{
+    width: 100px !important;
+    font-size: 12px !important;
+  }
+  .ant-table-thead tr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap !important;
+  }
+  .ant-table-thead tr th{
+    flex: 1 !important;
+  }
+  .ant-table-tbody tr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap !important;
+  }
+  .ant-table-tbody tr td{
+    flex: 1 !important;
+  }
+  .conteronDeom .bopsuner2 .nuisner button{
+    margin-top: 50px !important ;
+  }
+  .ant-pagination-options {
+    display: block !important;
+  }
+  .conteronDeom .psuoisng .psuoisng_regit .nuisner .nuisner_pros button{
+    margin-left: 5px;
+    margin-right: 5px;
+    
+  }
+  .conteronDeom .spusoere button{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    margin-left: 5px !important;
+  }
+  .pserTise2{
+    width:95% !important;
+  }
+ .pserTise2 .Ptimeb{
+  width:300px;
+  margin: 5px auto !important;
+  word-wrap: break-word;
+ }
+}
+@media only screen and (min-width: 640px) and (max-width: 960px) {
+}
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+}

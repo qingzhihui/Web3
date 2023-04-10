@@ -1,0 +1,382 @@
+.conteronDeom {
+  height: 100%;
+  position: absolute;
+  background: url("../../assets/bumg/ba57a61194ecf2fefbf44135bcbc193.png");
+  background-size: 100% 100%;
+  width: 100%;
+  .Hder_reft {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    button {
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 10px;
+      font-size: 16px;
+      height: 35px;
+      line-height: 0px;
+      font-weight: 600;
+      font-family: "Microsoft YaHei";
+      background-color: rgb(75, 154, 214);
+      border: none;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+  .Realsibu {
+    display: flex;
+    align-items: center;
+    padding: 10px 5px 10px 5px;
+    background-color: rgb(75, 154, 214);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 10px;
+    font-weight: 600;
+    height: 40px;
+    border: none;
+    .noelue {
+      padding: 6px;
+      flex: 1;
+      border-right: 2px solid #fff;
+    }
+    .bsuein {
+      font-size: 13px;
+      margin-right: 5px;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+    button {
+      background-color: rgb(75, 154, 214);
+      color: #dddddda6;
+      border-radius: 10px;
+      font-size: 10px;
+      line-height: 10px;
+      font-weight: 600;
+      text-align: right;
+      height: 50px;
+      border: none;
+      padding-left: 5px;
+      padding-right: 10px;
+    }
+  }
+  .snueing {
+    width: 1240px;
+    margin: 0 auto;
+    .buseitile {
+      font-size: 20px;
+      color: rgb(75, 154, 214);
+      font-weight: 600;
+      margin-bottom: 5px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      .sbuedri {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+      }
+      .bopsuner {
+        justify-content: space-between;
+        position: relative;
+        input {
+          width: 400px;
+        }
+      }
+    }
+    .buseit {
+      background-color: #fff;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 10px;
+      .bulioet {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        border-left: 3px solid rgb(67, 150, 213);
+        padding-left: 10px;
+      }
+      .tirel {
+        font-size: 16px;
+        color: rgb(75, 154, 214);
+        padding-right: 10px;
+      }
+      .tnerl {
+        font-size: 16px;
+        color: #000;
+      }
+      .bulioet2 {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+    }
+  }
+
+  .sksiuer {
+    button {
+      margin-right: 10px;
+      cursor: pointer;
+    }
+  }
+  .lbuser {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .nuisner {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input {
+      border-radius: 5px;
+      height: 40px;
+      border: 2px solid rgb(75, 154, 214);
+      outline: none;
+      padding-left: 5px;
+      font-size: 15px;
+      color: #000;
+    }
+    button {
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 5px;
+      font-size: 14px;
+      height: 40px;
+      font-weight: 600;
+      margin-left: 5px;
+      background-color: #4b9ad6;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      margin-left: 20px;
+      width: 110px;
+    }
+  }
+  .sbyuidngs {
+    background-color: rgb(185, 185, 185) !important;
+    cursor: not-allowed !important;
+  }
+  .sbyuinput {
+    cursor: not-allowed !important;
+  }
+  .hezhuiing {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(75, 154, 214) !important;
+    font-size: 19px;
+    font-weight: 600;
+    border: 2px solid rgb(75, 154, 214);
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .spusoere {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 5px;
+      font-size: 14px;
+      height: 40px;
+      font-weight: 600;
+      margin-left: 5px;
+      background-color: #4b9ad6;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      margin-left: 20px;
+      width: 110px;
+    }
+  }
+
+  .bopsuner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .nuisner {
+      margin-left: 0px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      input {
+        width: 700px;
+      }
+    }
+  }
+  .bopsuner2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .nuisner {
+      margin-left: 0px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      .pruinstinptu {
+        width: 700px;
+        display: flex;
+        align-items: center;
+        .input1 {
+          width: 60%;
+        }
+        .input2 {
+          width: 40%;
+          margin-left: 10px;
+        }
+      }
+      input {
+      }
+    }
+  }
+  .lbuser {
+    input {
+      width: 400px;
+      font-size: 14px;
+    }
+  }
+  .spuinsd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input {
+      width: 130px;
+      font-size: 14px;
+    }
+  }
+
+  .delsei {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 35px;
+    font-weight: 600;
+    margin-left: 5px;
+    background-color: #4b9ad6;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .psuoisng {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .psuoisng_lengt {
+      width: 70%;
+      border-radius: 20px;
+      padding: 10px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .psuoisng_regit {
+      width: 30%;
+      border-radius: 20px;
+      padding: 10px;
+      height: 100%;
+      margin-left: 20px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      .nuisner {
+        flex-wrap: wrap;
+        margin-left: 0px !important;
+        width: 100%;
+        input {
+          width: 100%;
+        }
+        .nuisner_pros {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 10px;
+        }
+        button {
+          width: 100px;
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+  .shungpungi {
+    padding-top: 10px;
+  }
+  .shungpungi_titlr {
+    font-size: 20px;
+    color: #4b9ad6;
+    font-weight: 600;
+  }
+}
+.Niome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ant-notification-notice {
+  width: 200px;
+  background-color: #fff !important;
+  border: 2px solid rgb(75, 154, 214) !important;
+  color: rgb(75, 154, 214) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 100px;
+}
+.ant-notification-notice-message {
+  color: rgb(75, 154, 214) !important;
+}
+.osleoeingt {
+  display: flex;
+  align-items: center;
+}
+.osleoeingt_tuei {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.spuduisbData {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+  button {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 35px;
+    font-weight: 600;
+    margin-left: 5px;
+    background-color: #4b9ad6;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 20px;
+    width: 80px;
+  }
+}
